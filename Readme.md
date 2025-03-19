@@ -62,3 +62,106 @@ El objetivo principal de esta tarea fue configurar una instancia en AWS y desple
 ## Conclusión
 Esta tarea permitió configurar correctamente una instancia en AWS, instalar las herramientas necesarias y desplegar una aplicación de manera efectiva utilizando **Node.js**, **Vite** y **Serve**. Esto proporciona una base sólida para el desarrollo y despliegue de aplicaciones en la nube utilizando AWS.
 
+## Explicacion con capturas de pantalla : 
+
+![Lanzamiento de laboratorio ](/capturas/img1.png) 
+
+    Primero he empezado por lanzar el laboratorio 
+
+![Creacion de la VPC ](/capturas/img2.png) 
+
+    Vamos a crear la VPC 
+
+![VPC creada  ](/capturas/img3Mi_VPC.png)
+
+    He creado la VPC con el nombre mi-vpc-Mohamed-Aidani
+
+![Creacion de 2 subrede ](/capturas/img4Mis_Subredes.png) 
+
+    He creado dos subredes una para Linux y otra para Windows
+
+![Creacion de Internet GeteWay ](/capturas/img5InternetIGW.png) 
+
+![Conectar a la VPC ](/capturas/img6AsociarGW_VPC.png) 
+
+    Conectando Interner GeteWay a la VPC
+
+![Confirmacion de la conexion ](/capturas/img7IgwAsociados.png) 
+
+    Como aparece en la foto se ha conectado correctamente la conexion entre Internet Getewey y la VPC
+
+![Creacion de la tabla de enrutamiento](/capturas/img8TablaRt.png) 
+
+    He creado la tabla de enrutamiento y la asociado a la VPC 
+
+![Agregacion de la tabla a Internet ](/capturas/img9AgregarRutaIntenet.png) 
+
+    He agregado y actualizado la tabla de enrutamiento 
+
+![Asociacion de subredes](/capturas/img10AsociarSubredes.png) 
+
+    He asociado correctamente las subredes a mi vpc 
+
+![Lanzamiento de la instancia ](/capturas/img11LanzarInstancia.png)
+
+    Como aparece en la foto he lanzado correctamente la INSTANCIA 
+
+![Conexcion de la instancia ](/capturas/img12Actualizacion.png)
+
+    He actualizado la instancia utilizando los comandos SUDO APT UPDATE y SUDO APT INSTALL NODE.JS NPM
+
+![Resumen de la instacia ](/capturas/img12InstanciaEC2Linux.png) 
+
+    Aqui tenemos el resumen de la instancia que se llama EC2 Linux con sus informaciones ..
+
+![Conectando Instancia SSH ](/capturas/img13ConectandoInstanciaSSH.png)
+
+    He conectado la instancia EC2 Linux
+
+![Actualizando la instancia y instalando ](/capturas/img1.png) 
+
+    He instalado la correctamente la NPM - V
+
+![instalar NODE_SERVE ](/capturas/img16IntalacionNode_Serve.png)
+
+    Como se ve en la captura he instalado con exito NODE_SERVE
+
+
+![Datos de Vite ](/capturas/img17Vite.png) 
+
+    He obtenido el vite para tener la pagina web de Vite (llevo con mucho intentos pero no me funciona la pagina de vite )
+
+![Vite v6.2.2 ](/capturas/img18ViteLocalHost.png) 
+
+    Aparece vite con su http//localhost:5173
+    y con su http//192.168.0.44.5173
+
+![Creacion de archivo ](/capturas/img19CrearArchivo.png) 
+
+    He creado el archivo web-Mohamed-Aidani
+
+![Inicializar Proyecto ](/capturas/img20InicializarProyecto.png) 
+
+![Proyecto](/capturas/img21Proyecto.png) 
+
+    He craeado mi paquete web-mohamed-aidani , en el framework her seleccinado vanilla y luego a javascript
+
+![Confirmacion de la intalacion](/capturas/img22Instalando.png) 
+
+    El npm se ha intalado y funciona de manera correcta
+
+![Terminar](/capturas/img23SirviendoProyecto.png)
+
+    Terminando el proyecto con exito ! 
+
+![Creacion del grupo de seguridad ](/capturas/img24SecurityGroup.png) 
+
+    Creacion del grupo de seguridad se VITE , SSH y HTTP 
+
+
+
+
+
+
+
+
