@@ -158,6 +158,30 @@ Esta tarea permitió configurar correctamente una instancia en AWS, instalar las
 
     Creacion del grupo de seguridad se VITE , SSH y HTTP 
 
+![Pagina web (html) ](/capturas/img25PaginaWeb.png)
+
+    La pagina web que he creado , intentaba varias veces crearla con Vite pero no lo lograba .. 
+
+
+![Empezar Pull&&Request ](/capturas/img27CreandoRamaRepoFernando.png)
+
+    Aqui he empezado a clonar la ruta de Fernando para hacer Pull&&Request , he creado una rama , la he agregado y luego un commit con un comentario .. y al final lo he subido en su repositorio ...
+
+![Resultado en el repositorio ](/capturas/img28Pull&&Request.png)
+
+    Aqui he hecho merge para la rama que he creado en el repositorio del compañero .. 
+
+![Confirmacion de MERGE](/capturas/img29MergedRepositorio.png)
+
+        Se ha confirmado la operacion de MERGE en su repositorio .. 
+
+![Resultado final ](/capturas/img30MergeRepoFernando.png)
+
+    Aqui tenemos el resultado final del Pull&&Quest creando mi rama en su repositorio .. 
+
+
+
+
 
 
 
